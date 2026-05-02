@@ -909,7 +909,7 @@ function downloadPDF() {
     // ── Customer box ──────────────────────────────────────
     const BX = 44;
     doc.setFillColor(240, 253, 244); doc.setDrawColor(22, 101, 52); doc.setLineWidth(0.3);
-    doc.roundedRect(14, BX, PW - 28, budget ? 32 : 26, 2, 2, 'FD');
+    doc.roundedRect(14, BX, PW - 28, budget ? 42 : 26, 2, 2, 'FD');
 
     doc.setTextColor(22, 101, 52); doc.setFontSize(7); doc.setFont('helvetica', 'bold');
     doc.text('BILLED TO', 18, BX + 6);
@@ -922,14 +922,17 @@ function downloadPDF() {
     doc.text('Phone:   ' + custPhone,   18, BX + 26.5);
 
     if (budget) {
-      doc.setFont('helvetica', 'bold');
-      doc.setTextColor(5, 46, 22);
-      doc.text('Total Budget: Rs.' + budget.toFixed(2), 18, BX + 33);
-      doc.setFont('helvetica', 'italic');
-      doc.setFontSize(7.5);
-      doc.setTextColor(100, 100, 100);
-      doc.text('Note: Order limited to the sanctioned budget amount.', 18, BX + 39);
-    }
+  doc.setFont('helvetica', 'bold');
+  doc.setTextColor(5, 46, 22);
+  // BX + 33 എന്നുള്ളത് BX + 34 ആക്കി മാറ്റാം
+  doc.text('Total Budget: Rs.' + budget.toFixed(2), 18, BX + 34); 
+  
+  doc.setFont('helvetica', 'italic');
+  doc.setFontSize(7.5);
+  doc.setTextColor(100, 100, 100);
+  // വരികൾ തമ്മിൽ കൂട്ടിമുട്ടാതിരിക്കാൻ ഇത് BX + 39-ൽ തന്നെ വെക്കാം
+  doc.text('Note: Order limited to the sanctioned budget amount.', 18, BX + 40);
+}
 
     doc.setFontSize(7.5); doc.setFont('helvetica', 'normal'); doc.setTextColor(100, 100, 100);
     doc.text('GST Rate: 5%  |  Prices = Base + 5% GST', PW - 18, BX + 26.5, { align: 'right' });
