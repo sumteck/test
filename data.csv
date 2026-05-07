@@ -1,0 +1,910 @@
+Code,Medicines,Unit,Rate
+A1,Abhayarishtam,450ml,60
+A10,Kumaryasavam,450ml,77
+A10H,Kumaryasavam,200ml,35
+A11,Khadirarishtam,450ml,91
+A11H,Khadirarishtam,200ml,42
+A12,Chandanasavam,450ml,60
+A12H,Chandanasavam,200ml,28
+A13,Jeerakarishtam,450ml,98
+A13H,Jeerakarishtam,200ml,46
+A14,Dasamoolarishtam,450ml,77
+A14H,Dasamoolarishtam,200ml,35
+A15,Danthyarishtam,450ml,60
+A15H,Danthyarishtam,200ml,28
+A16,Duralabharishtam,450ml,74
+A16H,Duralabharishtam,200ml,35
+A17,Draksharishtam,450ml,91
+A17H,Draksharishtam,200ml,42
+A18,Partharishtam,450ml,70
+A18H,Partharishtam,200ml,32
+A19,Pippalyasavam,450ml,67
+A19H,Pippalyasavam,200ml,30
+A1H,Abhayarishtam,200ml,28
+A2,Amrutharishtam,450ml,67
+A20,Punarnavasavam,450ml,67
+A20H,Punarnavasavam,200ml,30
+A21,Balarishtam,450ml,70
+A21H,Balarishtam,200ml,32
+A22,Madhookasavam,450ml,116
+A22H,Madhookasavam,200ml,53
+A23,Mustharishtam,450ml,70
+A23H,Mustharishtam,200ml,32
+A24,Mrudweekarishtam,450ml,95
+A24H,Mrudweekarishtam,200ml,42
+A25,Lohasavam,450ml,77
+A25H,Lohasavam,200ml,35
+A26,Lodhrasavam,450ml,84
+A26H,Lodhrasavam,200ml,39
+A28,Saraswatharishtam (gold),10ml,482
+A29,Vasarishtam,450ml,98
+A29H,Vasarishtam,200ml,46
+A2H,Amrutharishtam,200ml,32
+A3,Asokarishtam,450ml,63
+A31,Aravindasavam,450ml,70
+A31H,Aravindasavam,200ml,32
+A32,Saribadyasavam,450ml,70
+A32H,Saribadyasavam,200ml,32
+A33,Ayaskrithi,450ml,77
+A33H,Ayaskrithi,200ml,35
+A35,Dhanwanthararishtam,450ml,91
+A35H,Dhanwanthararishtam,200ml,42
+A36,Useerasavam,450ml,81
+A36H,Useerasavam,200ml,35
+A37,Chavikasavam,450ml,77
+A37H,Chavikasavam,200ml,35
+A38,Vidaryadyasavam,450ml,70
+A38H,Vidaryadyasavam,200ml,32
+A39,Poothikasavam,450ml,63
+A39H,Poothikasavam,200ml,28
+A3H,Asokarishtam,200ml,25
+A4,Ahiphenasavam,10ml,32
+A41,Rohithakarishtam,450ml,60
+A41H,Rohithakarishtam,200ml,28
+A5,Aswagandharishtam,450ml,109
+A5H,Aswagandharishtam,200ml,49
+A6,Aragwadharishtam,450ml,70
+A6H,Aragwadharishtam,200ml,32
+A7,Kanakasavam,450ml,67
+A7H,Kanakasavam,200ml,32
+A8,Karpoorasavam,10ml,25
+A9,Kutajarishtam,450ml,70
+A9H,Kutajarishtam,200ml,32
+AD1,Aparajithadoopa Choornam,50g,39
+B1,Annabhedi Sindooram,10g,63
+B10,Loha Sindooram,10g,77
+B10C,Loha Sindooram,25g,186
+B10G,Loha Sindooram,5g,39
+B16,Mandoora Bhasmam,10g,119
+B16B,Mandoora Bhasmam,20g,231
+B1C,Annabhedi Sindooram,20g,126
+B1D,Annabhedi Sindooram,5g,35
+B2,Abhra Bhasmam,5g,95
+B20,Sankha Bhasmam,5g,28
+B20A,Sankha Bhasmam,10g,56
+B2A,Abhra Bhasmam,10g,186
+B3,Avaltholadi Bhasmam,50g,98
+B3E,Avaltholadi Bhasmam,100g,196
+B4,Kantha Sindooram,10g,60
+B4G,Kantha Sindooram,5g,32
+B5,Gandhaka Rasayanam,10g,56
+B5C,Gandhaka Rasayanam,25g,140
+B5G,Gandhaka Rasayanam,5g,28
+B8D,Panaviraladi Bhasmam,50g,35
+B9,Pravala Bhasmam,5g,168
+B9A,Pravala Bhasmam,10g,329
+B9B,Pravala Bhasmam,20g,655
+C1,Avipathi Choornam,500g,420
+C10,Thaleesapathradi Choornam,500g,420
+C10D,Thaleesapathradi Choornam,50g,46
+C10F,Thaleesapathradi Choornam,10g,14
+C11,Yavanyadi Choornam,500g,350
+C110,Indukantham KSC,500g,287
+C110D,Indukantham KSC,50g,28
+C111,Amruthotharm KSC,500g,133
+C111D,Amruthotharm KSC,50g,14
+C112,Amruthadi KSC,500g,133
+C112D,Amruthadi KSC,50g,14
+C113,Dasamoolakaduthrayam KSC,500g,200
+C113D,Dasamoolakaduthrayam KSC,50g,21
+C114,Gandharvahasthadi KSC,500g,154
+C114D,Gandharvahasthadi KSC,50g,18
+C115,Guluchyadi KSC,500g,133
+C115D,Guluchyadi KSC,50g,14
+C116,Maharasnadi KSC,500g,161
+C116D,Maharasnadi KSC,50g,21
+C117,Pathyadi KSC,500g,182
+C117D,Pathyadi KSC,50g,21
+C118,Punarnavadi KSC,500g,161
+C118D,Punarnavadi KSC,50g,18
+C119,Rasnerandadi KSC,500g,154
+C119D,Rasnerandadhi KSC,50g,18
+C11D,Yavanyadi Choornam,50g,39
+C12,Rajannyadi Choornam,500g,385
+C120,Sitholpaladi choornam,500g,483
+C120D,Sitholpaladi choornam,50g,53
+C121,Avipathikara Choornam,500g,546
+C121D,Avipathikara Choornam,50g,63
+C122,Baladhi KSC,200g,77
+C125,Thrikatu Choornam,500g,623
+C125D,Thrikatu Choornam,50g,74
+C126,Eladi Choornam,500g,515
+C126D,Eladi Choornam,50g,56
+C127,Punarnava Choornam,500g,263
+C127D,Punarnava Choornam,50g,28
+C12D,Rajannyadi Choornam,50g,42
+C13,Rasnadi Choornam,500g,515
+C130D,Asana Choornam,50g,21
+C130F,Asana Choornam,10g,11
+C13D,Rasnadi Choornam,50g,56
+C13F,Rasnadi Choornam,10g,14
+C14,Vara Choornam,500g,385
+C14D,Vara Choornam,50g,42
+C15,Vaiswanara Choornam,500g,385
+C15D,Vaiswanara Choornam,50g,39
+C16,Sudarsana Choornam,500g,319
+C16D,Sudarsana Choornam,50g,35
+C17,Hinguvachadi Choornam,500g,420
+C17D,Hinguvachadi Choornam,50g,46
+C19,Gruhadhoomadilepa Choornam,500g,301
+C19D,Gruhadhoomadilepa Choornam,50g,32
+C1D,Avipathi Choornam,50g,46
+C1F,Avipathi Choornam,10g,14
+C2,Ashta Choornam,500g,515
+C20,Abhaya Choornam,500g,147
+C20D,Abhaya Choornam,50g,18
+C21,Abhayadi Choornam,500g,487
+C21D,Abhayadi Choornam,50g,49
+C22,Aswagandha Choornam,500g,452
+C22D,Aswagandha Choornam,50g,49
+C24,Amaya Choornam,500g,287
+C24D,Amaya Choornam,50g,32
+C25,Useera Choornam,500g,312
+C25D,Useera Choornam,50g,32
+C26,Unmadanasini Choornam,500g,392
+C26D,Unmadanasini Choornam,50g,42
+C28,Kantakari Choornam,500g,217
+C28D,Kantakari Choornam,50g,25
+C29,Kutaja Choornam,500g,217
+C29D,Kutaja Choornam,50g,25
+C2D,Ashta Choornam,50g,56
+C2F,Ashta Choornam,10g,14
+C3,Agnimugha Choornam,500g,231
+C33,Guluchee Choornam,500g,231
+C33D,Guluchee Choornam,50g,25
+C34,Gokshura Choornam,500g,336
+C34D,Gokshura Choornam,50g,35
+C35,Chandana Choornam,500g,3108
+C35D,Chandana Choornam,50g,312
+C36,Chithraka Choornam,500g,2310
+C36D,Chithraka Choornam,50g,231
+C37,Jeeraka  Choornam,500g,697
+C37D,Jeeraka  Choornam,50g,70
+C39,Thrivruth Choornam,500g,217
+C39D,Thrivruth Choornam,50g,25
+C3D,Agnimugha Choornam,50g,25
+C4,Inthuppukanam,500g,420
+C40,Danthi Choornam,500g,441
+C40D,Danthi Choornam,50g,46
+C42,Nagakesara Choornam,500g,242
+C42D,Nagakesara Choornam,50g,25
+C43,Nisa Chornam,500g,308
+C43D,Nisa Chornam,50g,32
+C44,Panchakola Choornam,500g,630
+C47,Pippali Chornam,500g,1050
+C47D,Pippali Chornam,50g,105
+C48,Pippalimoola Choornam,500g,263
+C48D,Pippalimoola Choornam,50g,28
+C49,Puranadhathriphala Choornam,500g,154
+C49D,Puranadhathriphala Choornam,50g,18
+C4D,Inthuppukanam,50g,42
+C5,Eladigana Choornam,500g,630
+C50,Maricha Choornam,500g,441
+C50D,Maricha Choornam,50g,46
+C52,Misi Choornam,500g,242
+C52D,Misi Choornam,50g,25
+C53,Mustha Choornam,500g,147
+C53D,Mustha Choornam,50g,18
+C54,Yashti Choornam,500g,277
+C54D,Yashti Choornam,50g,28
+C55,Vacha Choornam,500g,263
+C55D,Vacha Choornam,50g,28
+C58,Vidanga Choornam,500g,543
+C58D,Vidanga Choornam,50g,56
+C59,Sathavari choornam,500g,441
+C59D,Sathavari choornam,50Gm,53
+C5D,Eladigana Choornam,50g,67
+C6,Karpooradi Choornam,500g,490
+C60,Sunti Choornam,500g,441
+C60D,Sunti Choornam,50g,46
+C61,Swethasankhupushpa Choornam,500g,322
+C61D,Swethasankhupushpa Choornam,50g,35
+C62,Sarpaganadhi Choornam,500g,858
+C62D,Sarpaganadhi Choornam,50g,98
+C63,Sarpagandhyadi Choornam,500g,805
+C63D,Sarpagandhyadi Choornam,50g,88
+C65,Somalatha Choornam,500g,532
+C65D,Somalatha Choornam,50g,56
+C68,Saraswatha Choornam,500g,644
+C68D,Saraswatha Choornam,50g,70
+C69,Yogaraja Choornam,500g,487
+C69D,Yogaraja Choornam,50g,49
+C6D,Karpooradi Choornam,50g,53
+C7,Kallyanaksharam,250g,301
+C70,Pushyanuga Choornam,500g,644
+C70D,Pushyanuga Choornam,50g,70
+C71,Nimbadi Choornam,500g,322
+C71D,Nimbadi Choornam,50g,35
+C72D,Amruthadi Choornam,50g,28
+C73D,Panchakoladi Choornam,50g,63
+C75,Navayasa Choornam,50g,70
+C78D,Kachooradi Choornam,50g,46
+C8,Gulgulupanchapala Choornam,500g,644
+C83,Kottamchukkadi Choornam,200g,126
+C84,Jatamayadilepa choornam,200g,154
+C8D,Gulgulupanchapala Choornam,50g,70
+C9,Dadimashtaka Choornam,500g,385
+C90,Shaddharana Choornam,50g,98
+C93A,Kolakulathadi Choornam,200g,84
+C93D,Kolakulathadi Choornam,50g,25
+C97,Nagaradi Lepa Choornam,200g,154
+C97D,Nagaradi Lepa Choornam,50g,42
+C9D,Dadimashtaka Choornam,50g,42
+D1,Amruthotharam Kashayam,200ml,77
+D10,Nirgunyadi Kashayam,200ml,70
+D11,Nisakatakadi Kashayam,200ml,81
+D15,Dhanwantharam Kashayam,200ml,109
+D17,Panchatikthakam Kashayam,200ml,95
+D18,Pathyadi Kashayam,200ml,84
+D19,Punarnnavadi Kashayam,200ml,84
+D2,Elakanadi Kashayam,200ml,116
+D20,Bhruhathyadi Kashayam,200ml,77
+D21,Bhadradarvadi Kashayam,200ml,84
+D22,Maharasnadi Kashayam,200ml,123
+D23,Manjishtadi Kashayam,200ml,105
+D24,Mustakaranjadi Kashayam,200ml,98
+D25,Musalikhadiradi Kashayam,200ml,70
+D26,Rasnerandadi Kashayam,200ml,130
+D27,Varanadi Kashayam,200ml,77
+D28,Vyoshadi Kashayam,200ml,77
+D29,Sapthasaram Kashayam,200ml,95
+D30,Padoladhiganam Kashayam,200ml,154
+D37,Thrayanthyadi Kashayam,200ml,126
+D4,Ghandravahastadi Kashayam,200ml,77
+D40,Ashtavargam (Balasahachradi),200ml,88
+D41,Gulguluthikthakomkashayam,200ml,140
+D42,Dhanadanayanadi Kashayam,200ml,112
+D43,Prasaranyadi Kashayam,200ml,84
+D44,Rasnasaptakam Kashayam,200ml,88
+D45,Vidaryadi Kashayam,200ml,91
+D46,Sahacharadi Kashayam,200ml,84
+D47,Balaguluchyadi Kashayam,200ml,70
+D48,Mahathikthakam Kashayam,200ml,147
+D49,Balajeerakadi Kashayam,200ml,74
+D5,Guluchyadi Kashayam,200ml,130
+D50,Pathyakshadhathryadi Kashayam,200ml,88
+D51,Kathakakadhiradhikashayam,200ml,74
+D52,Vasaguluchyadi Kashayam,200ml,74
+D53,Vajrakam Kashayam,200ml,77
+D55,Indhukantham Kashayam,200ml,88
+D56,Sukumaram Kashayam,200ml,95
+D57,Dusparsakadi Kashayam,200ml,109
+D58,Nimbadi Kashayam,200ml,84
+D59,Mahamanjishtadi Kashayam,200ml,116
+D6,Chiruvilwadi Kashayam,200ml,112
+D60,kokilaksham Kashayam,200ml,74
+D61,Rasonadi Kashayam,200ml,137
+D7,Dasamoolakadutryamkashaya,200ml,98
+D8,Drakshadi Kashayam,200ml,112
+D9,Nayopayam Kashayam,200ml,119
+G1,Indukantha Ghritham,450ml,462
+G10,Dhanwanthara Ghritham,450ml,462
+G10A,Dhanwanthara Ghritham,200ml,207
+G11,Durva Ghritham,450ml,420
+G11A,Durva Ghritham,200ml,186
+G12,Neelee Ghritham,450ml,763
+G12A,Neelee Ghritham,200ml,340
+G13,Neeleedaladi Ghritham,450ml,385
+G13A,Neeleedaladi Ghritham,200ml,172
+G14,Patoladi Ghritham,450ml,441
+G14A,Patoladi Ghritham,200ml,196
+G15,Padadarvadi Ghritham,200ml,294
+G16,Purana Ghritham,450ml,280
+G16A,Purana Ghritham,200ml,126
+G17,Brahmi Ghritham,450ml,420
+G17A,Brahmi Ghritham,200ml,189
+G18,Mahathikthaka Ghritham,450ml,483
+G18A,Mahathikthaka Ghritham,200ml,214
+G19,Rasnadasamoola Ghritham,450ml,392
+G19A,Rasnadasamoola Ghritham,200ml,175
+G1A,Indukantha Ghritham,200ml,207
+G2,Kallyanaka Ghritham,450ml,441
+G20,Vajraka Ghritham,450ml,375
+G20A,Vajraka Ghritham,200ml,168
+G21,Vidaryadi Ghritham,450ml,378
+G21A,Vidaryadi Ghritham,200ml,168
+G23,Shadphala Ghritham,450ml,347
+G23A,Shadphala Ghritham,200ml,154
+G24,Sukumara Ghritham,450ml,536
+G24A,Sukumara Ghritham,200ml,238
+G25,Mahakalyanaka Ghritham,450ml,483
+G25A,Mahakalyanaka Ghritham,200ml,214
+G26,Mahalpanchagavya Ghritham,450ml,431
+G26A,Mahalpanchagavya Ghritham,200ml,196
+G27,Panchagavya Ghritham,450ml,357
+G27A,Panchagavya Ghritham,200ml,158
+G28,Mahapaisachika Ghritham,450ml,357
+G28A,Mahapaisachika Ghritham,200ml,161
+G2A,Kallyanaka Ghritham,200ml,196
+G3,Karaskara Ghritham,450ml,546
+G30,Brahmikalyanaka Ghritham,450ml,336
+G30A,Brahmikalyanaka Ghritham,200ml,151
+G32,Koosmandaswarasa Ghritham,450ml,375
+G32A,Koosmandaswarasa Ghritham,200ml,168
+G33,Saraswathaghritham,450ml,357
+G33A,Saraswathaghritham,200ml,158
+G34,Phalasarpis,450ml,441
+G34A,Phalasarpis,200ml,196
+G35,Dhathryadi Ghritham,450ml,441
+G35A,Dhathryadi Ghritham,200ml,196
+G36,Vidaryadi Ghrutham (Mutton extract),450ml,497
+G36A,Vidaryadi Ghrutham (Mutton extract),200ml,224
+G3A,Karaskara Ghritham,200ml,245
+G4,Gulguluthiktakam Ghritham,450ml,525
+G46,Sughaprasavada Ghritham,200ml,256
+G4A,Gulguluthiktakam Ghritham,200ml,235
+G5,Jathyadi Ghritham,450ml,420
+G5A,Jathyadi Ghritham,200ml,186
+G6,Jeevanthyadi Ghritham,450ml,1722
+G6B,Jeevanthyadi Ghritham,200ml,767
+G7,Dadimadi Ghritham,450ml,420
+G7A,Dadimadi Ghritham,200ml,189
+G8,Thikthaka Ghritham,450ml,452
+G8A,Thikthaka Ghritham,200ml,200
+G9,Thryphala Ghritham,450ml,347
+G9A,Thryphala Ghritham,200ml,154
+H1,Agasthyarasayanam,500g,154
+H10,Chyavanaprasam,500g,168
+H10A,Chyavanaprasam,200g,70
+H11,Thaleesavadakam,500g,263
+H11A,Thaleesavadakam,200g,105
+H11E,Thalisavadakam Granules,100g,53
+H12,Tharamandooram,200g,133
+H13,Dasamoolaharithaki,500g,151
+H13A,Dasamoolaharithaki,200g,60
+H14,Dasamoolarasayanam,25g,32
+H14E,Dasamoolarasayanam,100g,123
+H15,Manibhadra Lehyam,500g,158
+H15A,Manibhadra Lehyam,200g,63
+H16,Valiyamadhusnuhirasayanam,500g,221
+H16A,Valiyamadhusnuhirasayanam,200g,88
+H17,Vilwadi Lehyam,500g,193
+H17A,Vilwadi Lehyam,200g,84
+H19,Sathavarigulam,500g,196
+H19A,Sathavarigulam,200g,84
+H1A,Agasthyarasayanam,200g,63
+H2,Amrithaprasam,500g,252
+H20,Sukumararasayanam,500g,294
+H20A,Sukumararasayanam,200g,119
+H21,Hridyavirechananm,500g,168
+H21A,Hridyavirechananm,200g,67
+H22,Drakshadi Lehyam,500g,280
+H22A,Drakshadi Lehyam,200g,112
+H26,Sooranava Lehyam,200g,77
+H28,Aswaghandhadi Lehyam,400g,158
+H29,Panjajeerakagudam,250g,98
+H2A,Amrithaprasam,200g,102
+H3,Ajamamsarasayanam,400g,203
+H30,Narasimharasayanam,200g,84
+H31,Haridraghandam,50g,28
+H32,Vyoshadi Vadakam,50g,28
+H33,Pulimkuzhambu,100g,112
+H34,Bhramarasayanam,500g,161
+H34A,Bhramarasayanam,200g,63
+H36,Soubhagyasundi Modakam,500g,277
+H36A,Soubhagyasundi Modakam,200g,112
+H36E,Soubhagyasundi Modakam,100g,56
+H37,Vidaryadi Lehyam,500g,200
+H37A,Vidaryadi Lehyam,200g,81
+H4,Eladirasayanam,50g,81
+H40,Kadaleerasayanam,500g,522
+H40A,Kadaleerasayanam,200g,210
+H5,Kallyanangulam,500g,151
+H5A,Kallyanangulam,200g,60
+H6,Kutaja Lehyam,500g,186
+H6A,Kutaja Lehyam,200g,77
+H7,Koosmandarasayanam,500g,203
+H7A,Koosmandarasayanam,200g,84
+H8,Gomoothrahareethaki,500g,154
+H8A,Gomoothrahareethaki,200g,63
+H9,Chincahadi Lehyam,500g,266
+H9A,Chincahadi Lehyam,200g,109
+K1,Amruthotharam KC,1kg,221
+K10,Nirgunyadi KC,1kg,319
+K10A,Nirgunyadi KC,500g,161
+K10C,Nirgunyadi KC,250g,81
+K11,Nisakathakadi KC,1kg,231
+K11A,Nisakathakadi KC,500g,116
+K11C,Nisakathakadi KC,250g,60
+K12,Neelimooladi KC,1kg,585
+K12A,Neelimooladi KC,500g,294
+K12C,Neelimooladi KC,250g,147
+K13,Neelithulasyadi KC,1kg,410
+K13A,Neelithulasyadi KC,500g,207
+K13C,Neelithulasyadi KC,250g,105
+K14,Neelikaranjadi KC,1kg,693
+K14A,Neelikaranjadi KC,500g,350
+K14C,Neelikaranjadi KC,250g,175
+K15,Dhanwantharam KC,1kg,224
+K15A,Dhanwantharam KC,500g,116
+K15C,Dhanwantharam KC,250g,60
+K16A,Padolamooladi KSC,500g,147
+K17,Panchathikthakam KC,1kg,231
+K17A,Panchathikthakam KC,500g,116
+K17C,Panchathikthakam KC,250g,60
+K18,Pathyadi KC,1kg,214
+K18A,Pathyadi KC,500g,109
+K18C,Pathyadi KC,250g,56
+K19,Punarnavadi KC,1kg,242
+K19A,Punarnavadi KC,500g,123
+K19C,Punarnavadi KC,250g,63
+K1A,Amruthotharam KC,500g,112
+K1C,Amruthotharam KC,250g,56
+K2,Elakanadi KC,1kg,469
+K20,Bruhathyadi KC,1kg,186
+K20A,Bruhathyadi KC,500g,95
+K20C,Bruhathyadi KC,250g,49
+K21,Bhadradarvadi KC,1 kg,231
+K21A,Bhadradarvadi KC,500g,116
+K21C,Bhadradarvadi KC,250g,60
+K22,Maharasnadi KC,1kg,312
+K22A,Maharasnadi KC,500g,158
+K22C,Maharasnadi KC,250g,81
+K23,Manjishtadi KC,1kg,249
+K23A,Manjishtadi KC,500g,126
+K23C,Manjishtadi KC,250g,63
+K24,Musthakaranjadi KC,1kg,273
+K24A,Musthakaranchadi KC,500g,140
+K24C,Musthakaranchadi KC,250g,70
+K25,Musalikhadiradi KC,1kg,189
+K25A,Musalikhadiradi KC,500g,95
+K25C,Musalikhadiradi KC,250g,49
+K26,Rasnerandadi KC,1kg,287
+K26A,Rasnerandadi KC,500g,147
+K26C,Rasnerandadi KC,250g,74
+K27,Varanadi KC,1kg,207
+K27A,Varanadi KC,500g,105
+K27C,Varanadi KC,250g,53
+K28,Vyoshadi KC,1kg,266
+K28A,Vyoshadi KC,500g,137
+K28C,Vyoshadi KC,250g,67
+K29,Saptasaram KC,1Kg,207
+K29A,Saptasaram KC,500g,105
+K29C,Saptasaram KC,250g,53
+K2A,Elakanadi KC,500g,238
+K2C,Elakanadi KC,250g,119
+K30,Padoladiganam KC,1Kg,1141
+K30A,Padoladiganam KC,500g,574
+K30C,Padoladiganam KC,250g,287
+K34,Mridweekadi KC,1kg,312
+K34A,Mridweekadi KC,500g,158
+K34C,Mridweekadi KC,250g,81
+K39A,Gulguluthikthakam KC,500g,168
+K4,Gandharvahasthadi KC,1kg,231
+K41,Prasaranyadi KC,500g,140
+K42,Ashtavargam KC,500g,109
+K44,Rasnasapthakam KC,500g,98
+K44P,Rasnasapthakam KC,1Kg,189
+K45A,Vidharyadi KC,500g,126
+K4A,Gandharvahasthadi KC,500g,116
+K4C,Gandharvahasthadi KC,250g,60
+K5,Guluchyadi KC,1kg,207
+K50,Pathyakshadhathryadi KC,1kg,161
+K50A,Pathyakshadhathryadi KC,500g,81
+K55,Indukantham KC,500g,109
+K55D,Indukantham KC,50g,14
+K55E,Indukantham KC,100g,21
+K5A,Guluchyadi KC,500g,105
+K5C,Guluchyadi KC,250g,53
+K6,Chiruvilwadi KC,1kg,343
+K62,Vasaguluchyadi KC,1kg,522
+K62A,Vasaguluchyadi KC,500g,263
+K62D,Vasaguluchyadi KC,50g,28
+K63,Dasamoolam KC,1kg,161
+K67,Kaidaryadi KC,1kg,273
+K67A,Kaidaryadi KC,500g,140
+K67C,Kaidaryadi KC,250g,70
+K68,Shadangam KC,50g,28
+K68A,Shadangam KC,500g,287
+K69,Sahacharadi KC,1kg,259
+K69A,Sahacharadi KC,500g,133
+K69D,Sahacharadi KC,50g,67
+K6A,Chiruvilwadi KC,500g,175
+K6C,Chiruvilwadi KC,250g,88
+K7,Dasamoolakaduthrayam KC,1kg,256
+K70,Gojihwadi KC,1kg,294
+K70A,Gojihwadi KC,500g,151
+K70C,Gojihwadi KC,100g,32
+K71,Phalathrikadi KC,1kg,361
+K71A,Phalathrikadi KC,500g,182
+K71E,Phalathrikadi KC,100g,39
+K72,Pashanabhedadi KC,1kg,287
+K72A,Pashanabhedadi KC,500g,147
+K72E,Pashanabhedadi KC,100g,32
+K77,Brihat/Mahamanjishtathi KC,1kg,406
+K77A,Brihat/Mahamanjishtathi KC,500g,214
+K77C,Brihat/Mahamanjishtathi KC,250g,119
+K78,Aragwadhadi KC,1 KG,1208
+K78A,Aragwadhadi KC,500g,609
+K78C,Aragwadhadi KC,250g,308
+K78E,Aragwadhadi KC,100g,126
+K79,Vyaghryadi KC,1000g,410
+K79A,Vyaghryadi KC,500g,221
+K79C,Vyaghryadi KC,250g,123
+K7A,Dasamoolakaduthrayam KC,500g,130
+K7C,Dasamoolakaduthrayam KC,250g,67
+K8,Drakshadi KC,1Kg,756
+K8A,Drakshadi KC,500g,378
+K8C,Drakshadi KC,250g,189
+K9,Nayopayam KC,1kg,319
+K9A,Nayopayam KC,500g,161
+K9C,Nayopayam KC,250g,81
+P10,Krimighnavti Gulika,100 nos,172
+P11,Khadira Gulika,100 nos,546
+P12,Gokshuradi Guggulu,100 nos,378
+P13,Gopichandanadi Gulika,100 nos,186
+P14,Gorochanadi Gulika,100 nos,2386
+P15,Chandanadivarthi Gulika,100 nos,588
+P16,Chandraprabha Gulika,100 nos,196
+P17,Charngeryadi Gulika,100 nos,322
+P18,Chukkumthippallyadi Gulika,100 nos,175
+P19,Jatheemukuladivarthi Gulika,100 nos,252
+P2,Ashtakshari Gulika,100 nos,252
+P24,Dasangam Gulika,100 nos,525
+P26,Dooshivishari Gulika,100 nos,266
+P27,Dhanwantharam Gulika,100 nos,189
+P28,Navayasam Gulika,100 nos,315
+P31,Pushyanugam Gulika,100 nos,462
+P32,Ponkaradi Gulika,100 nos,508
+P33,Marmavattu Gulika,100 nos,294
+P34,Mandooravatakam Gulika,100 nos,266
+P35,Manasamithravatakam Gulika,100 nos,3199
+P35A,Manasamithravatakam Gulika,10 nos,322
+P36,Mukkamukkadukadi Gulika,100 nos,147
+P37,Punarnava Mandooram,100 nos,140
+P4,Uramarunnu Gulika,100 nos,140
+P41,Vilwadi Gulika,100 nos,252
+P42,Vimalavarthi Gulika,100 nos,777
+P43,Vettumaran Gulika,100 nos,203
+P44,Sivagulika,10 nos,151
+P45,Swasanandam Gulika,100 nos,204
+P48,Sarvarogakulanthakam Gulika,100 nos,953
+P5,Karuthavattu Gulika,100 nos,312
+P50,Suryaprabha Gulika,100 nos,123
+P55,Vidangadi Gulika,100 nos,259
+P56,Thriphaladi Gulika,100 nos,126
+P59,Yogarajagulgulu Gulika,100 nos,210
+P6,Vayu Gulika,100 nos,315
+P67,Laghusuthasekhara Rasam Tablet,100 nos,91
+P69,Laksha Guggulu Gulika,100 nos,210
+P70,Kanchanara Guggulu,100 nos,224
+P8,Kachooradivattugulika,100 nos,256
+P81,Rajapravarthinivati,100 nos,151
+P82,Sanjeevani Vati,100 nos,74
+P84,Punarnava Guggulu,100 nos,238
+P85,Sapthavimshathika Guggulu,100 nos,336
+P86,Samsamani Vati,100 nos,130
+P87,Chitrakadi Gulika,100 nos,235
+P88,Lavangadi Gulika,100 nos,196
+P89,Prabhakaravati Tablet,100 nos,109
+P9,Kaisoragulgulu Gulika,100 nos,273
+P93,Thriphala Guggulu,100 nos,298
+PT01,Chavanaprasam C.F.(spl),500g,259
+PT01A,Chavanaprasam C.F.(spl),250g,121
+PT02,Rheumajith,10g,33
+PT03,Thenginpookulamrutham,400g,171
+PT04,Diabetdrinks,50g,23
+PT05,Oushadhi Sanitizer,100ml,36
+PT05A,Oushadhi Sanitizer,200ml,66
+PT05D,Oushadhi Sanitizer,50ml,20
+PT06,Burncure Ointment,25g,48
+PT07,Murivenna Ointment,10g,29
+PT08,Pramehoushadhi,100g,102
+PT08C,Pramehoushadhi,200g,190
+PT09,Oushadhi Dahasamani,50g,29
+PT10,Oushadhi Bliss Balm,10g,32
+PT11,Oushadhi Tooth Powder,25g,29
+PT12,Oushadhi Cough Syrup,100ml,46
+PT13,Sudarsanam Tablet,100nos,132
+PT14,Shaddharanam Tablet,100nos,233
+PT15,Psorset Oil,100ml,112
+PT16,Psorset Ointment,50g,63
+PT17D,Ayush Kwath,50g,39
+PT17E,Ayush Kwath,100g,76
+PT18,Vigor Plus Capsule,60nos,289
+PT19,Ashtachoornam Syrup,100ml,49
+PT20,Lipocare Tablet,100no,263
+PT21,Oushadhi Baby Oil,100ml,98
+PT22,Cardocare Tablet,100no,167
+PT23,Oushadhi Arimedadi Drops,10ml,36
+PT24,Pramehoushadhi Tablet,100nos,210
+PT25,K K Lepam,25g,53
+PT27,Indukantham Syrup,100ml,29
+PT28,Rajanyadi Choornam Syrup,100ml,29
+PT29,Ayush Gutti,60 nos,72
+PT30,Dasamoolajeeerakarishtam,450ml,89
+T1,Anu Thailam,10ml,60
+T10,Kanjunnyadi Thylam,450ml,228
+T100,Laghuvishagarbha Thailam,450ml,203
+T100E,Laghuvishagarbha Thailam,100ml,46
+T102,Kaseesadi Thylam,450ml,210
+T102E,Kaseesadi Thylam,100ml,49
+T10A,Kanjunnyadi Thylam,200ml,102
+T10E,Kanjunnyadi Thylam,100ml,53
+T11,Karnapoorana Thylam,450ml,312
+T11D,Karnapoorana Thylam,50ml,35
+T12,Kurunthotti Enna,450ml,256
+T12A,Kurunthotti Enna,200ml,116
+T12E,Kurunthotti Enna,100ml,60
+T13,Karppasasthyadi Thylam,450ml,228
+T13A,Karppasasthyadi Thylam,200ml,102
+T13E,Karppasasthyadi Thylam,100ml,53
+T14,Kottamchukkadi Thylam,450ml,214
+T14A,Kottamchukkadi Thylam,200ml,98
+T14E,Kottamchukkadi Thylam,100ml,49
+T15,Gandha Tailam,10ml,67
+T16,Gandharvahasthadi Thailam,450ml,270
+T16D,Ghandarvahasthadi Thailam,50ml,32
+T17,Gopadmajadi Co-oil,450ml,361
+T17A,Gopadmajadi Co-oil,200ml,163
+T17E,Gopadmajadi Co-oil,100ml,82
+T18,Chinjadi Thylam,450ml,221
+T18A,Chinjadi Thylam,200ml,105
+T18E,Chinjadi Thylam,100ml,53
+T19,Chemparathyadi Co-oil,450ml,277
+T19A,Chemparathyadi Co-oil,200ml,126
+T19E,Chemparathyadi Co-oil,100ml,63
+T1d,Anu Thailam,50ml,287
+T2,Asanavilwadi Thylam,450ml,214
+T20,Jathyadi co-oil,450ml,277
+T20A,Jathyadi co-oil,200ml,126
+T20C,Jathyadi co-oil,100ml,67
+T21,Triphaladi Thylam,450ml,245
+T21A,Triphaladi Thylam,200ml,119
+T21E,Triphaladi Thylam,100ml,60
+T22,Dineseladi Co-oil,450ml,308
+T22A,Dineseladi Co-oil,200ml,140
+T22E,Dineseladi Co-oil,100ml,70
+T23,Dhanwantharam Thylam,450ml,301
+T23A,Dhanwantharam Thylam,200ml,133
+T23E,Dhanwantharam Thylam,100ml,67
+T24,Dhanwantharam Kuzhambu,450ml,291
+T24A,Dhanwantharam Kuzhambu,200ml,130
+T24E,Dhanwantharam Kuzhambu,100ml,67
+T25,Nalpamaradi Keram,450ml,277
+T25A,Nalpamaradi Keram,200ml,133
+T25C,Nalpamaradi Keram,100ml,70
+T26,Narayana Thylam,450ml,371
+T26A,Narayana Thylam,200ml,165
+T26E,Narayana Thylam,100ml,82
+T27,Neeli Thylam,450ml,326
+T27A,Neeli Thylam,200ml,148
+T27E,Neeli Thylam,100ml,74
+T28,Chandanadi Thylam,450ml,406
+T28A,Chandanadi Thylam,200ml,182
+T28E,Chandanadi Thylam,100ml,91
+T29,Neelibhringadi Thylam,450ml,322
+T29B,Neelibhringadi Thylam,200ml,144
+T29E,Neelibhringadi Thylam,100ml,74
+T2A,Asanavilwadi Thylam,200ml,95
+T2E,Asanavilwadi Thylam,100ml,49
+T3,Asanamanjishtadithylam,450ml,245
+T30,Neelibhringadi Co-oil,450ml,385
+T30B,Neelibhringadi Co-oil,200ml,186
+T30E,Neelibhringadi Co-oil,100ml,98
+T31,Parinathakeriksheerathylam,450ml,259
+T31E,Parinathakeriksheerathylam,100ml,60
+T31F,Parinathakeriksheerathylam,200ml,116
+T32,Paranthyadi Thylam,450ml,721
+T32E,Paranthyadi Thylam,100ml,168
+T32F,Paranthyadi Thylam,200ml,322
+T33,Pinda Thylam,450ml,228
+T33A,Pinda Thylam,200ml,102
+T33E,Pinda Thylam,100ml,53
+T34,Pippallyadyanuvasana Thylam,450ml,228
+T34A,Pippallyadyanuvasana Thylam,200ml,102
+T34E,Pippallyadyanuvasana Thylam,100ml,53
+T35,Prabhanjanavimardhanam,450ml,245
+T35A,Prabhanjanavimardhanam,200ml,109
+T35E,Prabhanjanavimardhanam,100ml,56
+T36,Balaswangadhadi Thylam,450ml,301
+T36A,Balaswangadhadi Thylam,200ml,133
+T36E,Balaswangadhadi Thylam,100ml,67
+T37,Balaguluchyadi Thylam,450ml,221
+T37A,Balaguluchyadi Thylam,200ml,98
+T37E,Balaguluchyadi Thylam,100ml,49
+T38,Bala Thylam,10ml,63
+T39,Bhringamalakadi Thylam,450ml,245
+T39A,Bhringamalakadi Thylam,200ml,109
+T39E,Bhringamalakadi Thylam,100ml,56
+T3A,Asanamanjishtadithylam,200ml,109
+T3E,Asanamanjishtadithylam,100ml,56
+T4,Arimedadi Thylam,450ml,238
+T40,Mahamasha Thylam,450ml,473
+T40A,Mahamasha Thylam,200ml,210
+T40E,Mahamasha Thylam,100ml,105
+T41,Madhuyashtyadi Thylam,450ml,347
+T41A,Madhuyashtyadi Thylam,200ml,154
+T41E,Madhuyashtyadi Thylam,100ml,70
+T42,Murivenna,450ml,280
+T42B,Murivenna,200ml,133
+T42E,Murivenna,100ml,77
+T43,Rasnadi Thylam,450ml,221
+T43A,Rasnadi Thylam,200ml,98
+T43E,Rasnadi Thylam,100ml,49
+T44,Lakshadi Thylam,450ml,245
+T44A,Lakshadi Thylam,200ml,109
+T44E,Lakshadi Thylam,100ml,56
+T45,Vajraka Thylam,450ml,214
+T45A,Vajraka Thylam,200ml,95
+T45E,Vajraka Thylam,100ml,49
+T46,Vachalasunadi Thylam,450ml,284
+T46A,Vachalasunadi Thylam,200ml,126
+T46E,Vachalasunadi Thylam,100ml,63
+T47,Vathavidhwamsani Thylam,450ml,207
+T47A,Vathavidhwamsani Thylam,200ml,91
+T47E,Vathavidhwamsani Thylam,100ml,46
+T48,Vilwampachottyadithylam,450ml,252
+T48A,Vilwampachottyadithylam,200ml,112
+T48E,Vilwampachottyadithylam,100ml,56
+T49,Sathahwadi Kuzhambu,450ml,158
+T49A,Sathahwadi Kuzhambu,200ml,70
+T49E,Sathahwadi Kuzhambu,100ml,35
+T4a,Arimedadi Thylam,200ml,105
+T4E,Arimedadi Thylam,100ml,53
+T5,Asanaeladi Thylam,450ml,291
+T50,Seethamsu Thylam,450ml,168
+T50A,Seethamsu Thylam,200ml,77
+T50E,Seethamsu Thylam,100ml,39
+T51,Sudhabala Thylam,450ml,221
+T51A,Sudhabala Thylam,200ml,98
+T51E,Sudhabala Thylam,100ml,49
+T52,Sudhadurvadi Co-oil,450ml,396
+T52A,Sudhadurvadi Co-oil,200ml,179
+T52E,Sudhadurvadi Co-oil,100ml,91
+T53,Sahacharadi Thylam,450ml,259
+T53A,Sahacharadi Thylam,200ml,119
+T53E,Sahacharadi Thylam,100ml,60
+T54,Ksheerabala Thylam,450ml,259
+T54A,Ksheerabala Thylam,200ml,116
+T54E,Ksheerabala Thylam,100ml,60
+T57,Mahachandanadi Thylam,450ml,462
+T57A,Mahachandanadi Thylam,200ml,207
+T57E,Mahachandanadi Thylam,100ml,103
+T58,Baladhathryadi Thylam,450ml,371
+T58A,Baladhathryadi Thylam,200ml,165
+T58E,Baladhathryadi Thylam,100ml,84
+T59,Surasadi Thylam,450ml,308
+T59A,Surasadi Thylam,200ml,140
+T59E,Surasadi Thylam,100ml,70
+T5A,Asanaeladi Thylam,200ml,130
+T5E,Asanaeladi Thylam,100ml,67
+T6,Arukaladi Thylam,450ml,207
+T60,Sanghupushpadi Enna,450ml,224
+T60A,Sanghupushpadi Enna,200ml,102
+T60E,Sanghupushpadi Enna,100ml,53
+T61,Elaneerkuzhambu,10g,49
+T61D,Elaneerkuzhambu,50g,245
+T63,Gulgulumarijadi Thylam,500ml,288
+T63D,Gulgulumarijadi Thylam,50ml,31
+T64,Jeevanthyadiyamakam,50g,49
+T66,Rasothamadi Lepam,500g,483
+T66D,Rasothamadi Lepam,50g,49
+T67,Hinguthrigunam,500g,455
+T67D,Hinguthrigunam,50g,46
+T68,Dhanwantharam 7 Times,10g,28
+T69,Dhanwantharam 14 Times,10g,39
+T6a,Arukaladi Thylam,200ml,91
+T6E,Arukaladi Thylam,100ml,46
+T7,Eladi Thylam,450ml,301
+T70,Dhanwantharam 21 Times,10g,46
+T71,Dhanwantharam 41 Times,10g,63
+T72,Dhanwantharam 101 Times,10g,95
+T73,Ksheerabala 7 Times,10g,32
+T74,Ksheerabala 14 Times,10g,42
+T75,Ksheerabala 21 Times,10g,49
+T76,Ksheerabala 41 Times,10g,53
+T77,Ksheerabala 101 Times,10g,81
+T78,Prasarani Thylam (small),450ml,245
+T78A,Prasarani Thylam (small),200ml,109
+T78E,Prasarani Thylam (small),100ml,54
+T79,Oushadhi Hair Tone,200ml,266
+T79A,Oushadhi Hair Tone,100ml,137
+T7A,Eladi Thylam,200ml,133
+T7E,Eladi Thylam,100ml,67
+T8,Eladi Co-oil,450ml,315
+T81,Kanjunnyadi Co-oil,450ml,308
+T81A,Kanjunnyadi Co-oil,200ml,140
+T81E,Kanjunnyadi Co-oil,100ml,70
+T82,Prasarany Thylam (big),450ml,413
+T82A,Prasarany Thylam (big),200ml,186
+T82E,Prasarany Thylam (big),100ml,95
+T83,Thekaraja Thylam,450ml,301
+T83A,Thekaraja Thylam,200ml,133
+T83E,Thekaraja Thylam,100ml,67
+T84,Marichadi Thylam,450ml,245
+T84A,Marichadi Thylam,200ml,112
+T84B,Marichadi Thylam,100ml,60
+T85,Lakshadhi Kuzhambu,450ml,238
+T85A,Lakshadhi Kuzhambu,200ml,105
+T85E,Lakshadhi Kuzhambu,100ml,53
+T86,Amruthathi Thylam (small),450ml,238
+T86a,Amruthathi Thylam (small),200ml,109
+T86E,Amruthathi Thylam (small),100ml,56
+T88,Nagaradi Thylam,450ml,396
+T88A,Nagaradi Thylam,200ml,175
+T88E,Nagaradi Thylam,100ml,88
+T89,Durdhurapathradi Co.oil,450ml,336
+T89A,Durdhurapathradi Co.oil,200ml,151
+T89E,Durdhurapathradi Co.oil,100ml,77
+T8A,Eladi Co-oil,200ml,144
+T8E,Eladi Co-oil,100ml,74
+T9,Karappan Thylam,450ml,312
+T90,Vathamardhanam Kuzhambu,450ml,363
+T90A,Vathamardhanam Kuzhambu,200ml,165
+T90E,Vathamardhanam Kuzhambu,100ml,84
+T91,Thriphaladi Co.oil,450ml,308
+T91A,Thriphaladi Co.oil,200ml,140
+T91E,Thriphaladi Co.oil,100ml,77
+T92,Asanavilwadhi Co.oil,450ml,273
+T92A,Asanavilwadi Co.oil,200ml,123
+T92E,Asanavilwadi Co.oil,100ml,63
+T94,Lakshadhi Co-oil,450ml,305
+T94A,Lakshadhi Co-oil,200ml,137
+T94E,Lakshadhi Co-oil,100ml,70
+T95,Asanaeladi Co-oil,450ml,326
+T95A,Asanaeladi Co-oil,200ml,147
+T95D,Asanaeladi Co-oil,50ml,42
+T95E,Asanaeladi Co-oil,100ml,77
+T96,Amruthathi Thylam (big),450ml,371
+T96A,Amruthathi Thylam (big),200ml,168
+T96E,Amruthathi Thylam (big),100ml,84
+T97,Balaguluchyadi Co.oil,450ml,273
+T97A,Balaguluchyadi Co.oil,200ml,123
+T97E,Balaguluchyadi Co.oil,100ml,63
+T98,Karpasasthyadi Kuzhambu,450ml,214
+T98A,Karpasasthyadi Kuzhambu,200ml,95
+T98E,Karpasasthyadi Kuzhambu,100ml,49
+T9A,Karappan Thylam,200ml,142
+T9E,Karappan Thylam,100ml,71
+TC10,Kottamchukkadi Kuzhambu,450ml,210
+TC10A,Kottamchukkadi Kuzhambu,200ml,98
+TC10E,Kottamchukkadi Kuzhambu,100ml,49
+TC11,Sahacharadi Kuzhambu,450ml,270
+TC11A,Sahacharadi Kuzhambu,200ml,130
+TC11E,Sahacharadi Kuzhambu,100ml,67
+TC12,Mahanarayana Thailam,450ml,329
+TC12A,Mahanarayana Thailam,200ml,154
+TC12E,Mahanarayana Thailam,100ml,77
+TC13,Dhanwantharam Thylam (Mezhukupakam),450ml,315
+TC13A,Dhanwantharam Thylam (Mezhukupakam),200ml,140
+TC14,Sahacharadi Thylam (Mezhukupakam),450ml,238
+TC14A,Sahacharadi Thylam (Mezhukupakam),200ml,161
+TC14E,Sahacharadi Thylam (Mezhukupakam),100ml,81
+TC15,Oushadhi Face Pack,50gs,115
+TC16,Eranda Thylam,450ml,217
+TC3,Karpooradi Thylam,450ml,295
+TC3A,Karpooradi Thylam,200ml,134
+TC3E,Karpooradi Thylam,100ml,69
+TC4,Balahatadi Thylam,450ml,221
+TC4A,Balahatadhi Thylam,200ml,98
+TC4E,Balahatadhi Thylam,100ml,49
+TC5,Malathyadi Keram,450ml,326
+TC5A,Malathyadi Keram,200ml,140
+TC5E,Malathyadi Keram,100ml,70
+TC8,Panchamla Thylam,450ml,228
+TC8A,Panchamla Thylam,200ml,102
+TC8E,Panchamla Thylam,100ml,51
+TC9,Veppukady,450ml,42
+TC9A,Veppukady,200ml,21
+TC9K,Veppukady,5000ml,420
