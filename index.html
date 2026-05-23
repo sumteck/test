@@ -743,6 +743,12 @@ const RENDER_SCALE = Math.min(window.devicePixelRatio || 1, 2);
 // We serialise ALL extra properties needed to restore images and text faithfully.
 const pageObjects = new Map();
 
+// Per-page fitScale store: Map<pageNum, {fitScale, displayW, displayH}>
+// Stored at render time so export uses the EXACT same scale that was used
+// to display each page — critical for A3 and other non-A4 sizes where
+// recalculating from the current viewport gives a different result.
+const pageFitScales = new Map();
+
 // Fabric canvas instance — created once, reused across page changes
 let fabricCanvas = null;
 
@@ -753,6 +759,9 @@ let editModalTarget = null;
 let isAddingText  = false;   // true while waiting for a tap to place text
 let isAddingImage = false;   // true while waiting for a tap to place image
 let pendingImageDataUrl = null; // dataURL of the image selected but not yet placed
+
+// Flag used to prevent double-placement: set true by mouse:down, checked by touchstart fallback
+let _placementHandledByFabric = false;
 
 /* ── DOM refs ──────────────────────────────────────────────── */
 const uploadScreen     = document.getElementById('upload-screen');
@@ -881,6 +890,7 @@ async function loadPDF(file) {
     currentPage = 1;
     pageObjects.clear();
     fontBytesCache.clear(); // clear lazy-loaded font cache on new file
+    pageFitScales.clear();  // clear stored fit scales for new document
 
     fileNameLabel.textContent = file.name;
     fileBadge.classList.add('visible');
@@ -925,6 +935,10 @@ async function renderPage(pageNum) {
     const renderVP     = page.getViewport({ scale: fitScale * RENDER_SCALE });
     const displayW     = Math.round(unscaledVP.width  * fitScale);
     const displayH     = Math.round(unscaledVP.height * fitScale);
+
+    // Store the exact fit geometry for this page so the export can use
+    // the same values without recalculating from a potentially different viewport.
+    pageFitScales.set(pageNum, { fitScale, displayW, displayH });
 
     // Set backing canvas to full raster resolution
     renderCanvas.width  = Math.round(renderVP.width);
@@ -988,14 +1002,15 @@ function initFabricCanvas(w, h) {
     /*
      * CLICK-TO-PLACE handler.
      * Fires on every pointer-down on the canvas.
-     * When a placement mode is active and the tap did NOT land on an
-     * existing object (opt.target == null), we place the item at the
-     * exact pointer coordinates and immediately exit placement mode.
-     * If the tap IS on an existing object we let Fabric handle it
-     * normally (selection / drag) and cancel placement mode cleanly.
+     * When a placement mode is active we set _placementHandledByFabric = true
+     * (so the touchstart fallback below knows Fabric already handled it), then
+     * place the item at the exact pointer coordinates and exit placement mode.
      */
     fabricCanvas.on('mouse:down', opt => {
       if (!isAddingText && !isAddingImage) return; // normal mode — do nothing
+
+      // Signal to the native touchstart fallback that Fabric handled this tap
+      _placementHandledByFabric = true;
 
       /*
        * COORDINATE EXTRACTION
@@ -1042,6 +1057,35 @@ function initFabricCanvas(w, h) {
         openEditModal(target);
       }
     });
+
+    const upperCanvas = fabricCanvas.upperCanvasEl;
+    upperCanvas.addEventListener('touchstart', function(e) {
+      if (!isAddingText && !isAddingImage) return; // not in placement mode
+      if (_placementHandledByFabric) { _placementHandledByFabric = false; return; }
+
+      // Fabric's mouse:down did NOT fire — handle placement ourselves
+      e.preventDefault();
+      e.stopPropagation();
+
+      const touch = e.touches[0];
+      if (!touch) return;
+
+      const rect = upperCanvas.getBoundingClientRect();
+      // Convert touch page coords → canvas CSS px coords (accounting for
+      // any CSS transform / scroll — getBoundingClientRect handles this).
+      const cssScaleX = upperCanvas.width  / rect.width;
+      const cssScaleY = upperCanvas.height / rect.height;
+      const x = (touch.clientX - rect.left) * cssScaleX;
+      const y = (touch.clientY - rect.top)  * cssScaleY;
+
+      if (isAddingText) {
+        placeText(x, y);
+      } else if (isAddingImage && pendingImageDataUrl) {
+        const dataUrl = pendingImageDataUrl;
+        cancelPlacementMode();
+        placeImage(dataUrl, x, y);
+      }
+    }, { passive: false });
   }
 
   fabricCanvas.setWidth(w);
@@ -1580,16 +1624,29 @@ async function downloadFilledPDF() {
 
       const { width: pageW, height: pageH } = pdfPage.getSize();
 
-      // Re-derive canvas display dimensions — MUST be identical to renderPage()
-      // so that the export scale is correct for every page size including A3.
-      const pdfJsPage  = await pdfDoc.getPage(pageNum);
-      const scrollEl2  = document.getElementById('canvas-scroll');
-      const availW2    = (scrollEl2 ? scrollEl2.clientWidth : window.innerWidth) - 40;
-      const maxW2      = Math.max(availW2, Math.min(availW2, 1600));
-      const unscaledVP = pdfJsPage.getViewport({ scale: 1 });
-      const fitScale   = maxW2 / unscaledVP.width;
-      const displayW   = Math.round(unscaledVP.width  * fitScale);
-      const displayH   = Math.round(unscaledVP.height * fitScale);
+      // Use the stored fit geometry for this page — recorded at render time.
+      // This is CRITICAL for large pages (A3, US Legal, etc.): recalculating
+      // fitScale from the current scrollEl.clientWidth would give a wrong result
+      // if the viewport changed since the page was rendered, causing misalignment.
+      //
+      // If a page was never rendered (e.g. the user added objects on page 1 then
+      // downloaded without ever viewing page 2 — not possible in normal flow, but
+      // defensive), fall back to deriving it fresh as before.
+      let displayW, displayH;
+      const storedFit = pageFitScales.get(pageNum);
+      if (storedFit) {
+        displayW = storedFit.displayW;
+        displayH = storedFit.displayH;
+      } else {
+        // Fallback: derive from current viewport (page was never rendered this session)
+        const pdfJsPage  = await pdfDoc.getPage(pageNum);
+        const scrollEl2  = document.getElementById('canvas-scroll');
+        const availW2    = (scrollEl2 ? scrollEl2.clientWidth : window.innerWidth) - 40;
+        const unscaledVP2 = pdfJsPage.getViewport({ scale: 1 });
+        const fitScale2   = availW2 / unscaledVP2.width;
+        displayW = Math.round(unscaledVP2.width  * fitScale2);
+        displayH = Math.round(unscaledVP2.height * fitScale2);
+      }
 
       /*
        * COORDINATE MAPPING FIX — use pageW/pageH from pdf-lib, not unscaledVP.
